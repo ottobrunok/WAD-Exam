@@ -7,7 +7,11 @@ npm install
 
 ### Compiles for development
 ```
-npm start
+nodemon server
+
+Note: If you did not install ``nodemon'', you can use
+
+node server 
 ```
 
 # Setup:

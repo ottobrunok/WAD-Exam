@@ -8,14 +8,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/M-Gharib/WebAppDev21EXAM2.git"
+        "url": "git+https://github.com/M-Gharib/WAD21EXAM2.git"
     },
     "author": "MGharib",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/M-Gharib/WebAppDev21EXAM2/issues"
+        "url": "https://github.com/M-Gharib/WAD21EXAM2/issues"
     },
-    "homepage": "https://github.com/M-Gharib/WebAppDev21EXAM2#readme",
+    "homepage": "https://github.com/M-Gharib/WAD21EXAM2#readme",
     "dependencies": {
         "ejs": "^3.1.6",
         "express": "^4.17.1",
