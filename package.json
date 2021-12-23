@@ -1,26 +1,26 @@
 {
-  "name": "wad21exam2",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/M-Gharib/WebAppDev21EXAM2.git"
-  },
-  "author": "MGharib",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/M-Gharib/WAD21EXAM2/issues"
-  },
-  "homepage": "https://github.com/M-Gharib/WAD21EXAM2#readme",
-  "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "express-load": "^1.1.16"
-  },
-  "devDependencies": {},
-  "description": "```\r npm install\r ```"
+    "name": "wad21exam2",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/M-Gharib/WebAppDev21EXAM2.git"
+    },
+    "author": "MGharib",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/M-Gharib/WebAppDev21EXAM2/issues"
+    },
+    "homepage": "https://github.com/M-Gharib/WebAppDev21EXAM2#readme",
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-load": "^1.1.16"
+    },
+    "devDependencies": {},
+    "description": "```\r npm install\r ```"
 }
