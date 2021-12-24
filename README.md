@@ -7,9 +7,11 @@ npm install
 
 ### Compiles for development
 ```
-nodemon server
+If you have ``nodemon'' installed 
 
-Note: If you did not install ``nodemon'', you can use
+npm start
+
+If you did not install ``nodemon'', you can use
 
 node server 
 ```
@@ -37,7 +39,7 @@ You need to [import](https://docs.github.com/en/github/importing-your-projects-t
 
 1. Add a snippet to specify that you are using ejs as a view engine. **[1 point]**
 
-2. Create a middleware that write to the console "a request has arrived" for each request arriving to the server. **[1 point]**
+2. Create a middleware that writes to the console "a request has arrived" for each request arriving at  the server. **[1 point]**
 
 3. Modify the destinations.ejs view to display all destination objects in the destinations array. **[4 point]**
 
