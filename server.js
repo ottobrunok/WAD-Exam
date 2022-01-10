@@ -4,6 +4,9 @@ const app = express();
 
 
 
+//task1
+app.set('view engine', 'ejs');
+
 app.use(express.static('Public'));
 
 app.listen(3000);
@@ -13,13 +16,15 @@ app.listen(3000);
 
 
 app.get('/', (req, res) => {
-
+    //task2
+    console.log("a request has arrived");
     res.render('index', { welcomeMessage: 'Welcome to the Exam, Good luck' });
 });
 
 
 app.get('/destinations', (req, res) => {
-
+    //task2
+    console.log("a request has arrived");
     let destinations = [
         { id: 1, from: "Tartu", to: "Tallinn", time: "02:15", distance: 180, price: 12, tickets: 7 },
         { id: 2, from: "Tartu", to: "Narva", time: "03:50", distance: 178, price: 13, tickets: 3 },
